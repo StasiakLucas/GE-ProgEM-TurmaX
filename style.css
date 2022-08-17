@@ -2,6 +2,17 @@ body {
     background-color:#DB4939;
 }
 
+.cabecalho {
+    background-color: aqua;
+    font-size: 30px;
+    padding:20px;
+    text-align: left;
+}
+
+.cabecalho h1 {
+    text-align: left;
+}
+
 h1 {
     text-align: center;
     color: #5C3733;
@@ -9,18 +20,37 @@ h1 {
 
 #quadro-negro {
   height: 400px;
-
+  width: 100%;
 }
+
 p {
   color: black;
 }
+
 h2 {
     text-align: center;
 }
+
 strong {
     color:
 }
 
 span {
     color: blue;
+}
+
+.horarios {
+    width: 49%;
+    display:inline-block;
+    border: 5px dotted yellow;
+}
+
+.conteudos {
+    width: 49%;
+    display:inline-block;
+    border: 5px dotted yellow;
+}
+
+.itens {
+    color: white;
 }
