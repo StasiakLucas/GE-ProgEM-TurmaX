@@ -3,7 +3,6 @@ body {
 }
 
 .cabecalho {
-    background-color: aqua;
     font-size: 30px;
     padding:20px;
     text-align: left;
@@ -39,18 +38,20 @@ span {
     color: blue;
 }
 
-.horarios {
-    width: 49%;
-    display:inline-block;
-    border: 5px dotted yellow;
-}
-
-.conteudos {
-    width: 49%;
-    display:inline-block;
-    border: 5px dotted yellow;
-}
 
 .itens {
     color: white;
+}
+
+.horarios {
+  display: inline-block;
+  width: 49%;
+  border: 4px dotted yellow;
+}
+
+.conteudos {
+  display: inline-block;
+  width: 49%;
+  border: 4px dotted yellow;
+  vertical-align: top;
 }
